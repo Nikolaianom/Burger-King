@@ -26,7 +26,7 @@
     position: relative;
     background: url('../images/header-img.png') no-repeat center /cover ;
     max-height: 886.17px;
-     
+     padding-bottom: 241px;
 }
 .header-image {
     position: absolute;
@@ -113,7 +113,10 @@ margin-bottom: 37px;
 .main-dishes {
     display: flex;
     column-gap: 31px;
-    margin-top: 115px;
+    
+}
+.div {
+    padding-top: 115px;
 }
 .main__dishes-dish {
     display: flex;
