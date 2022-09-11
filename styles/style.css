@@ -25,8 +25,13 @@
 .header {
     position: relative;
     background: url('../images/header-img.png') no-repeat center /cover ;
-    max-height: 886.17px;
-     padding-bottom: 241px;
+    height: 886.17px;
+    display: flex;
+}
+.header__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 .header-image {
     position: absolute;
@@ -70,11 +75,12 @@ transition: .5s;
     background: black ;
 }
 .header-info {
-    margin-top: 186px;
     max-width: 555px;
     display: flex;
     flex-direction: column;
     align-items: start;
+    flex-grow: 1;
+    justify-content: center;
 }
 .header__info-description {
     font-size: 14px;
